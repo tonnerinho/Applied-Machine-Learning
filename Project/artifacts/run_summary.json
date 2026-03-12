@@ -1,0 +1,32 @@
+{
+  "ticker": "LBS=F",
+  "forecast_horizon_days": 5,
+  "best_model": "Ridge",
+  "validation_metrics": {
+    "Model": "Ridge",
+    "Split": "Validation",
+    "MAE": 108.80112705804322,
+    "RMSE": 135.96812244432627,
+    "R2": 0.8242079076872477,
+    "MAPE": 0.12509285053774705,
+    "DirectionalAccuracy": 0.48846153846153845
+  },
+  "test_metrics": {
+    "Model": "Ridge",
+    "Split": "Test",
+    "MAE": 49.963776325849416,
+    "RMSE": 65.23289855068855,
+    "R2": 0.7871950358714488,
+    "MAPE": 0.10456928487757872,
+    "DirectionalAccuracy": 0.47509578544061304
+  },
+  "future_prediction": {
+    "prediction_made_on": "2023-05-08 00:00:00",
+    "forecast_date": "2023-05-15 00:00:00",
+    "current_close": 358.0,
+    "predicted_close": 363.9154753443609,
+    "forecast_horizon_days": 5,
+    "ticker": "LBS=F",
+    "best_model": "Ridge"
+  }
+}

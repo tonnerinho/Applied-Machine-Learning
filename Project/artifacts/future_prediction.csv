@@ -1,0 +1,2 @@
+prediction_made_on,forecast_date,current_close,predicted_close,forecast_horizon_days,ticker,best_model
+2023-05-08,2023-05-15,358.0,363.9154753443609,5,LBS=F,Ridge
